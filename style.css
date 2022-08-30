@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,400,600');
 
 body {
     margin: 0;
@@ -7,13 +7,17 @@ body {
 
 .c1 {
     background-color: #1f2937;
-    padding: 0 140px;
+    padding: 0 340px;
+    display: flex;
+    flex-flow: column;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
+    
 }
 
 #headlogo {
@@ -23,11 +27,58 @@ body {
 .header a {
     text-decoration: none;
     color: white;
-    padding: 0 10px;
-    -webkit-transition: color .25s;
+    padding: 0 0 0 10px;
+    transition: color .25s;
 }
 
 .header a:hover {
     color: #6995ce;
     transition: .25s;
+}
+
+.deck1 {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.deck1 img {
+    width: 66%;
+    border: solid black 1px;
+    min-width: 200px;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 0 16px 0;
+}
+
+.deck1 button {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 28px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin: 16px 0 0 0;
+    background-color: #3882f6;
+    -webkit-transition: background-color .25s linear;
+    -ms-transition: background-color .25s linear;
+    transition: background-color .25s linear;
+    -webkit-transition: color .25s linear;
+    -ms-transition: color .25s linear;
+    transition: color .25s linear;
+
+}
+
+.deck1 button:hover {
+    background-color: #6995ce;
+    color: #1f2937;
 }
