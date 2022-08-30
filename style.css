@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .c1 {
@@ -22,4 +24,10 @@ body {
     text-decoration: none;
     color: white;
     padding: 0 10px;
+    -webkit-transition: color .25s;
+}
+
+.header a:hover {
+    color: #6995ce;
+    transition: .25s;
 }
