@@ -102,7 +102,7 @@ h1 {
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
-    padding: 20px 340px 120px 340px;
+    padding: 40px 340px 120px 340px;
     text-align: center;
 }
 
