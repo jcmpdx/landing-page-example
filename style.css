@@ -5,9 +5,15 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+button {
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+}
+
 .c1 {
     background-color: #1f2937;
-    padding: 0 340px;
+    padding: 10px 340px;
     display: flex;
     flex-flow: column;
 }
@@ -18,10 +24,11 @@ body {
     align-items: center;
     gap: 20px;
     
+    
 }
 
 #headlogo {
-    width: 120px;
+    width: 70px;
 }
 
 .header a {
@@ -34,6 +41,10 @@ body {
 .header a:hover {
     color: #6995ce;
     transition: .25s;
+}
+
+#linkcontainer {
+    min-width: 300px;
 }
 
 .deck1 {
@@ -54,13 +65,14 @@ body {
 .deck1 img {
     width: 66%;
     border: solid black 1px;
-    min-width: 200px;
+    min-width: 300px;
 }
 
 h1 {
     font-size: 60px;
     line-height: 60px;
     margin: 0 0 16px 0;
+    min-width: 300px;
 }
 
 .deck1 button {
@@ -122,3 +134,73 @@ h2 {
     line-height: 20px;
     margin: 10px 0 0 0;
 }
+
+.c3 {
+    background-color: #e5e7eb;
+    padding: 100px 340px;
+    min-width: 480px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.quote {
+    font-size: 32px;
+    text-align: left;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.c4 {
+    padding: 100px 340px;
+    min-width: 456px;
+}
+
+.c4baby {
+    background-color: #3882f6;
+    padding: 80px;
+    border-radius: 8px;
+    font-size: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+#b4 {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 28px;
+    color: white;
+    border: none;
+    border: solid white 2px;
+    border-radius: 4px;
+    margin: 16px 0 0 0;
+    background-color: #3882f6;
+    -webkit-transition: background-color .25s linear;
+    -ms-transition: background-color .25s linear;
+    transition: background-color .25s linear;
+    -webkit-transition: color .25s linear;
+    -ms-transition: color .25s linear;
+    transition: color .25s linear;
+}
+
+#b4:hover {
+    color: #3882f6;
+    background-color: white;
+}
+
+#c4bold {
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 40px 340px;
+    text-align: center;
+}
+
