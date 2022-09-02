@@ -90,7 +90,7 @@ h1 {
     -webkit-transition: color .25s linear;
     -ms-transition: color .25s linear;
     transition: color .25s linear;
-
+    cursor: pointer;
 }
 
 .deck1 button:hover {
@@ -133,6 +133,22 @@ h2 {
     width: 100px;
     line-height: 20px;
     margin: 10px 0 0 0;
+}
+
+#s1 {
+    background-image: url("./images/s1.jpg");
+}
+
+#s2 {
+    background-image: url("./images/s2.jpg");
+}
+
+#s3 {
+    background-image: url("./images/s3.jpg");
+}
+
+#s4 {
+    background-image: url("./images/s4.jpg");
 }
 
 .c3 {
@@ -185,6 +201,7 @@ h2 {
     -webkit-transition: color .25s linear;
     -ms-transition: color .25s linear;
     transition: color .25s linear;
+    cursor: pointer;
 }
 
 #b4:hover {
