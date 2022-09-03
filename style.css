@@ -136,19 +136,19 @@ h2 {
 }
 
 #s1 {
-    background-image: url("/images/s1.jpg");
+    background-image: url("images/s1.jpg");
 }
 
 #s2 {
-    background-image: url("/images/s2.jpg");
+    background-image: url("images/s2.jpg");
 }
 
 #s3 {
-    background-image: url("/images/s3.jpg");
+    background-image: url("images/s3.jpg");
 }
 
 #s4 {
-    background-image: url("/images/s4.jpg");
+    background-image: url("images/s4.jpg");
 }
 
 .c3 {
